@@ -8,15 +8,21 @@ body{
 header{
     background-color: #0C73E8;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+    padding-right: 35em;
 }
 header p{
-    padding-left: 23em;
-    font-size: 2em;
+    padding-left: 9em;
+    font-size: 3em;
 }
 main a{
     text-decoration: none;
     color: white;
-    font-size: 2em ;
+    font-size: 3em ;
 }
 main ul li{
     background-color: #24a1aa;
@@ -25,5 +31,9 @@ main ul li{
 footer{
     color: white;
     background-color: #0C73E8;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
 }
