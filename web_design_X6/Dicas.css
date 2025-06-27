@@ -1,0 +1,38 @@
+body{
+    background-color: #074d5d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header, footer{
+    max-width: 150rem;
+}
+header{
+    background-color: #0C73E8;
+}
+header nav{
+    text-align: end;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    text-align: end;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    font-size: 2em
+}
+main{
+    display: flex;
+}
+main article img{
+    width: 81px;
+    height: 80px;
+}
+main article p{
+    padding-left: 5em;
+    color: white;
+    font-size: 1em;
+}
+footer{
+    color: white;
+    background-color: #0C73E8;
+    text-align: center;
+}
