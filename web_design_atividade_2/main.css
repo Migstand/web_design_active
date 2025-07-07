@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+header{
+    background:linear-gradient(to right, #72cfed,#186c86)
+}
+header img{
+    padding-left: 1em;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main{
+    margin-top: 3em ;
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+}
+main section{
+    border: 2px solid rgb(223, 223, 223) ;
+    box-shadow: 0 1px rgb(223, 223, 223) ;
+    padding-bottom: 7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+main section h2{
+    color: #186c86;
+}
+main section span{
+    color:  rgb(223, 223, 223) ;
+    display: block;
+    text-align: right;
+}
