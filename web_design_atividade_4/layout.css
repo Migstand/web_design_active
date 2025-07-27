@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+header{
+    color: white;
+    background: linear-gradient(to left,#7292A6, #224459);
+    padding: 2em;
+}
+main{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 0fr 0fr 2fr 1fr 0.2fr;
+    grid-template-areas:
+    "nav intro prog prog aman"    
+    "nav aba insc nata henr"    
+    "nav lari insc org org"
+    ;
+}
+img{
+    height: 300px;
+}
+main nav{
+    grid-area: nav;
+    padding: 2em;
+    background-color: #b1c9da;
+}
+main nav p{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size:xx-large;
+}
+main nav p a{
+    text-decoration: none;
+    color: #2d8999;
+}
+main section{
+    background-color: rgb(231, 231, 231);
+}
+main section div{
+    margin: 1em;
+    height: 100px;
+    display: grid;
+    grid-template-areas:
+    "dat1 hor1d1 ev1d1"
+    "dat1 hor2d1 ev2d1"
+    "dat2 hor1d2 ev1d2"
+    "dat2 hor2d2 ev2d2"
+    ;
+}
+main section div p{
+    text-align: center;
+    border: 1px solid white;
+}
+main section div p.data2{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+main section div p.horario1data2{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+main section.introducao{
+    grid-area: intro;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+main section.introducao span{
+    color: #224459;
+}
+main section.introducao p{
+    margin-bottom: 0.5em ;
+}
+main section.introducao a{
+    border: 1px solid black;
+    color: #224459;
+    text-decoration: none;
+}
+main section.abas{
+    grid-area: aba;
+    padding: 5rem;
+}
+main section.abas ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+main section.abas{
+    align-items: center;
+}
+main section.imagemlarissa{
+    grid-area: lari;
+    background-image: url(imagens/larissa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main section.programacao{
+    grid-area: prog;
+    padding: 2rem;
+}
+main section.inscricao{
+    grid-area: insc;
+    padding: 2rem;
+}
+main section.inscricao form{
+    margin-top: 2em;
+}
+.inscricao form input{
+    border: 2px solid gray;
+    color: gray;
+    padding-left: 1em;
+    padding-right: 25em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-top: 30px;
+    font-size: medium;
+}
+article p{
+    color: gray;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-right: 9em;
+    margin-left: 9em;
+    margin-top: 3em;
+    width: 50%;
+}
+main section.imagemnatalia{
+    grid-area: nata;
+    background-image: url(imagens/natalia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main section.organizacao{
+    grid-area: org;
+    padding: 2rem;
+}
+main section.organizacao aside{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: 2em;
+}
+main section.organizacao aside li{
+    margin-top: 1em;
+}
+main section.imagemamanda{
+    grid-area: aman;
+    width: 312.23px;
+    background-image: url(imagens/amanda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main section.imagemhenrique{
+    grid-area: henr;
+    width: 312.23px;
+    background-image: url(imagens/henrique.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.data1{
+    grid-area: dat1;
+}
+.data2{
+    grid-area: dat2;
+}
+.horario1data1{
+    grid-area: hor1d1;
+}
+.horario2data1{
+    grid-area: hor2d1;
+}
+.horario1data2{
+    grid-area: hor1d2;
+}
+.horario2data2{
+    grid-area: hor2d2;
+}
+.evento1data1{
+    grid-area: ev1d1;
+}
+.evento2data1{
+    grid-area: ev2d1;
+}
+.evento1data2{
+    grid-area: ev1d2;
+}
+.evento2data2{
+    grid-area: ev2d2;
+}
+footer{
+    color: white;
+    background-color: #224459;
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+}
+footer p{
+    align-items: center;
+}
