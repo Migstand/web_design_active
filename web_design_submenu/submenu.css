@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+header nav ul li a{
+    color: white;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(1, 185, 185);
+    display: block;
+}
+.diretoria{
+    position: relative;
+}
+.documentos{
+    position: relative;
+}
+.diretoria section{
+    position: absolute;
+    visibility: hidden;
+}
+.documentos section{
+    position: absolute;
+    visibility: hidden;
+}
+.diretoria:hover section{
+    visibility: visible;
+    margin-left: 1em;
+}
+.documentos:hover section{
+    visibility: visible;
+    margin-left: 1em;
+}
