@@ -54,14 +54,8 @@ main::before{
   background-color: rgba(0, 0, 0, 0.5); /* Sobreposição preta com 50% de opacidade */
   z-index: -1;
 }
-main a{
-    text-decoration: none;
-    color: white;
-    font-size: 3em ;
-}
-main ul li{
-    background-color: #24a1aa;
-    margin-left: 50em;
+main{
+    display: flex;
 }
 footer{
     color: white;
