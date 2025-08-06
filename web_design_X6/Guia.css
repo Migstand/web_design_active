@@ -58,7 +58,6 @@ main article a{
 }
 main section figure{
     display: grid;
-    gap: 17em;
     background-image: linear-gradient(to bottom, aqua purple);
 
 }
