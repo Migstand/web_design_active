@@ -12,6 +12,8 @@ header{
     color: white;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 header h1 img{
     height: 100%;
@@ -48,6 +50,7 @@ main{
 }
 
 main article{
+    margin-left: 2em;
     max-width: 10em;
     color: white;
     height: 100%;
@@ -58,12 +61,13 @@ main article a{
 }
 main section figure{
     display: grid;
-    background-image: linear-gradient(to bottom, aqua purple);
-
+    background-image: linear-gradient(aqua, purple);
+    gap: 4em;
 }
 main section figure img{
     height: 100%;
 }
 footer{
-    
+    background-image: linear-gradient(to left, rgb(48, 48, 204),#0C73E8,rgb(0, 168, 224)) ;
+    color: white;
 }

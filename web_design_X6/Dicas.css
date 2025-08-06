@@ -12,6 +12,8 @@ header{
     color: white;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 header h1 img{
     height: 100%;
