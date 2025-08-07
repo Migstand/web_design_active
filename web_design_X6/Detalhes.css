@@ -49,11 +49,18 @@ main li{
     font-size: 3em;
 }
 footer{
+    background-image: linear-gradient(to left, rgb(48, 48, 204),#0C73E8,rgb(0, 168, 224)) ;
     color: white;
-    background-color: #0C73E8;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2em;
-    align-items: center;
+    justify-content: space-around;
+}
+footer p{
+    margin-top: 1em;
+}
+footer address{
+    margin-top: 1em;
+    margin-right: 5em;
+}
+footer section{
+    margin-right: 15em;
 }
