@@ -42,7 +42,7 @@ header nav ul li a:hover{
     border: 2px solid rgb(40, 197, 40);
 }
 main{
-    background-image: url(Imagens/main_art.webp);
+    background-image: url(imagens/main_art.webp);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
