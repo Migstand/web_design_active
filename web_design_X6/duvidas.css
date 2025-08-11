@@ -41,6 +41,11 @@ header nav ul li a:hover{
     color: rgb(40, 197, 40);
     border: 2px solid rgb(40, 197, 40);
 }
+main article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 footer{
     background-image: linear-gradient(to left, rgb(48, 48, 204),#0C73E8,rgb(0, 168, 224)) ;
     color: white;

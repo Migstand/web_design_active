@@ -41,12 +41,23 @@ header nav ul li a:hover{
     color: rgb(40, 197, 40);
     border: 2px solid rgb(40, 197, 40);
 }
-main li{ 
-    list-style-type: none;
+main article{ 
+    display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main article section{
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+main article section p{
     color: white;
-    display: inline-block;
-    margin: auto 1em;
-    font-size: 3em;
+    font-size: 2em;
+}
+main article section h2{
+    font-size: 2em;
+    color: white;
 }
 footer{
     background-image: linear-gradient(to left, rgb(48, 48, 204),#0C73E8,rgb(0, 168, 224)) ;

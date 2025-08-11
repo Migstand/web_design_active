@@ -43,15 +43,30 @@ header nav ul li a:hover{
 }
 main{
     display: flex;
+    justify-content: space-between;
 }
-main article img{
-    width: 81px;
-    height: 80px;
-}
-main article p{
-    padding-left: 5em;
+main article h2{
+    font-size: 4em;
     color: white;
-    font-size: 1em;
+    margin-bottom: 0.4em;
+}
+
+main article section{
+    background-image: linear-gradient(to right, rgb(1, 136, 91), #003819);
+    max-width: 50em;
+    display: flex;
+    padding: 3em;
+    margin-right: 5em;
+}
+main article section.blade{
+    margin-bottom: 1em;
+}
+main article section h2{
+    font-size: 2em;    
+}
+main article section p{
+    color: white;
+    font-size: 2em;
 }
 footer{
     background-image: linear-gradient(to left, rgb(48, 48, 204),#0C73E8,rgb(0, 168, 224)) ;
