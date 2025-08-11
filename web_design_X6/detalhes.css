@@ -45,7 +45,6 @@ main article{
     display: flex;
     gap: 4em;
     flex-wrap: wrap;
-    justify-content: center;
 }
 main article section{
     margin-top: 0.6em;
