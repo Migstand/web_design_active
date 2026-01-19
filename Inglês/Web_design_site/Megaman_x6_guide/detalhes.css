@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #287943;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main article{ 
+    display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+}
+main article section{
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+main article section p{
+    color: white;
+    font-size: 2em;
+}
+main article section h2{
+    font-size: 2em;
+    color: white;
+}

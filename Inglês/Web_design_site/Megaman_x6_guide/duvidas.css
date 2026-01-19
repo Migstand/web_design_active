@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main{
+    background-color: aliceblue;
+}
+main article{
+    display: flex;
+    justify-content: space-between;
+}
+main article figure{
+    background-color: white;
+    padding-top: 14.71em;
+    padding-bottom: 14.71em;
+}
+main article form{
+    max-width: 10em;
+    margin-top: 2em;
+}
+main article form h2{
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: rgb(207, 62, 62);
+}
+main article form p{
+    color: rgb(155, 78, 78);
+    margin-bottom: 3em;
+}
+main article form input{
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+}
